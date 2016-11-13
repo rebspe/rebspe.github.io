@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Adventskalender von Debi für Fredi</title>
+<style type="text/css">
+	body, table , td, p{
+		font-family: Verdana;
+		font-size: 10pt;
+		text-align: center;
+		background-color: white;
+	 }
+	
+	 .mitab{
+		font-family: Courier New;
+		font-size: 10pt;
+		text-align: left;
+		color: black;
+	}
+	
+	a:link {
+		color: black;
+		TEXT-DECORATION: none;
+		font-weight:normal
+	} 
+	a:visited {
+		color: black;
+		TEXT-DECORATION: none;
+	}
+
+
+</style>
+
+</head>
+<body bgcolor="#000000" background="bg.jpg" >
+
+<!-- hier steht dein Text -->
+  <b> <p>Noch nicht.</p>
+  <p>Heute ist erst der</p></b>
+  <font size="+1">
+
+
+<script type="text/javascript">
+	var hdmonat=new Array("Januar","Februar","Maerz","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember")
+	var miheute = new Date();
+	var mijahr = miheute.getFullYear();
+	var mimonat = miheute.getMonth()+1;
+	var mitag = miheute.getDate();
+	
+	document.write(mitag+"."+hdmonat[mimonat-1]+" "+mijahr);
+</script>
+</font>
+</body>
+</html>
